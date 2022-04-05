@@ -52,16 +52,16 @@ textarea {
   color: white;
 }
 
-/* .future {
+.future {
   background-color: #77dd77;
-  color: white;
-} */
+  color: black;
+} 
 
-tr :nth-child(2){
+/* tr :nth-child(2){
   background-color: #77dd77;
   
-  /* color: white; */
-}
+  color: black;
+} */
 
 .saveBtn {
   border-left: 1px solid black;
