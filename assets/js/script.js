@@ -13,8 +13,6 @@ var calendarAppTime = function () {
   headerEl.appendChild(appTime);
 };
 
-calendarAppTime();
-
 function createCalendar() {
   var currentTime = time.local().hour();
   console.log(currentTime);
@@ -45,4 +43,14 @@ function createCalendar() {
   }
 }
 
+function setEventListeners() {
+  
+}
+
+function init() {
+calendarAppTime();
 createCalendar();
+setEventListeners();
+}
+
+init();
