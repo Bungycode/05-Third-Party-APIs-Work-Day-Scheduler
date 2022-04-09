@@ -80,4 +80,20 @@ th {
   text-align: right;
 }
 
+.textBox {
+  border: none;
+  color: black;
+}
+
+.textBox:hover {
+  opacity: 50%;
+  background-color: yellow;
+}
+
+
+/* CSS Alternative to lines 
+.textBox:focus {
+  border: 1px solid blue;
+} */
+
 
